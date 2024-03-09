@@ -17,6 +17,9 @@
 # Object
 # An object is a collection of data (variables) and methods that operate on that data. Objects are defined by a Python class.
 
+# class is a blueprint of objects. Without defining a class, we can't take an object
+
+
 # gautam 
 # def eat():
 #     a = 6
@@ -30,7 +33,7 @@ type('a')
 # creating a python class
 class Car:   # we are defining a class by taking a keyword class : class, name_of_class, colon
     speed = 0   # speed is a variable, that is defining property of the class
-    started = False # started is also a variable that ....
+    started = False # started is also a variable that .... which takes boolean value
     
     def start(self):   #start function means , we want to acknoweldge start of parking condition of a car: self?
         self.started = True
@@ -82,6 +85,6 @@ print(id(honda))
 print(id(car4))
 
 
-maruti.increase_speed(10)
+maruti.increase_speed(5)
 maruti.speed
 print(maruti.speed)
