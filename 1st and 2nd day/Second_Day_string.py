@@ -1,5 +1,5 @@
 # string is a sequence of characters
-# adkfn, 23434
+# adkfn, 23434(integer)
 
 num = "adbd"
 print(type(num))
@@ -32,8 +32,10 @@ print(saying)
 
 # Escaped sequence
 # \n, \r, \t, \\
+    
+#\n is used to give new line
 
-sur = " I am studying in Andhra University \t I am in visakhaptanam from 2 years \r"
+sur = " I am studying in Andhra University \n I am in visakhaptanam from 2 years "
 
 print(sur)
 
